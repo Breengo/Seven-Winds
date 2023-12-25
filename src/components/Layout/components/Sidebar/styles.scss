@@ -1,0 +1,44 @@
+#sidebar {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 235px;
+  border-right: 1px solid #3d3d40;
+
+  h3 {
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    padding: 8px 20px;
+    border-bottom: 1px solid #3d3d40;
+    display: flex;
+    flex-direction: column;
+    color: #a1a1aa;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    span {
+      font-size: 10px;
+    }
+    img {
+      position: absolute;
+      right: 10px;
+    }
+  }
+
+  ul {
+    list-style-type: none;
+    li {
+      display: flex;
+      gap: 14px;
+      align-items: center;
+      padding: 5px 20px;
+      color: #ffffff;
+    }
+    .side__project__active {
+      background-color: #a1a1aa;
+    }
+  }
+}

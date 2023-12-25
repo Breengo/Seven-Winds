@@ -1,0 +1,26 @@
+#navbar {
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid #3d3d40;
+
+  img {
+    margin-left: 20px;
+  }
+
+  ul {
+    margin-left: 31px;
+    list-style-type: none;
+    display: flex;
+    gap: 28px;
+
+    li {
+      padding: 14px 0;
+      color: #a1a1aa;
+      font-weight: 400;
+      font-size: 14px;
+      .navbar__list__active {
+        border-bottom: 1px solid #ffffff;
+      }
+    }
+  }
+}

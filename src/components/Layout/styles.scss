@@ -1,0 +1,47 @@
+#project {
+  width: 100%;
+}
+
+#project__tabs {
+  width: 100%;
+  border-bottom: 1px solid #3d3d40;
+  p {
+    padding: 12.5px 15px;
+    color: #ffffff;
+    border-right: 1px solid #3d3d40;
+    width: fit-content;
+  }
+}
+
+#main {
+  display: flex;
+  width: 100%;
+  height: 96.4%;
+}
+
+#project__content {
+  position: relative;
+  width: 100%;
+  height: 97%;
+  background-color: #202124;
+  padding: 5px;
+  overflow: auto;
+}
+
+#project__content__header {
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr 1fr 1fr 1fr;
+  border-bottom: #2c2d30 2px solid;
+  p {
+    justify-self: center;
+    color: #a1a1aa;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 18.2px */
+    letter-spacing: 0.1px;
+    padding: 12.5px 10px;
+  }
+}

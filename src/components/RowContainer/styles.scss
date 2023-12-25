@@ -1,0 +1,64 @@
+.project__row__container {
+  user-select: none;
+  position: relative;
+  display: grid;
+  height: 60px;
+  grid-template-columns: 1fr 5fr 1fr 1fr 1fr 1fr;
+  border-top: #2c2d30 2px solid;
+  padding: 0 10px;
+  gap: 12px;
+  p {
+    align-self: center;
+    justify-self: center;
+    color: #ffffff;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 18.2px */
+    letter-spacing: 0.1px;
+  }
+}
+
+.project__row__children {
+  position: relative;
+}
+
+.project__row__input {
+  align-self: center;
+  border-radius: 6px;
+  border: 1px solid #414144;
+  width: 100%;
+  height: 36px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0);
+  color: #71717a;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 18.2px */
+  letter-spacing: 0.1px;
+  outline: none;
+}
+
+.project__row__child_line {
+  left: -10px;
+  position: absolute;
+  border-left: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  bottom: 30px;
+  width: 15px;
+  height: 1px;
+}
+
+.project__row__line {
+  left: 5px;
+  position: absolute;
+  border-left: 1px solid #ffffff;
+  bottom: 30px;
+  width: 1px;
+  height: 100%;
+}
